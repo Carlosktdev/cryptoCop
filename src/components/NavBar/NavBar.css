@@ -1,0 +1,15 @@
+.cap {
+  color: #0fae96;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.hoverText {
+  color: white;
+}
+
+.hoverText:hover {
+  color: #0fae96;
+}

@@ -1,0 +1,26 @@
+.cryptoCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.cryptoName {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #b6b6b6;
+  padding: 2px 5px 2px 5px;
+  border-radius: 3px;
+}
+
+.positiveText {
+  color: aquamarine;
+}
+
+.negativeText {
+  color: rgb(255, 72, 72);
+}
