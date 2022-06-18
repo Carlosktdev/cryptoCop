@@ -13,9 +13,30 @@
 }
 
 .noCol {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .largeCol {
   min-width: 400px;
+}
+
+@media (max-width: 576px) {
+  .largeCol {
+    min-width: 10px;
+    max-width: 150px;
+  }
+  .textSize {
+    font-size: 4vw;
+  }
+}
+
+.link {
+  color: #0fae96;
+}
+
+.tableRow:hover {
+  padding: 10px 0px;
+  transform: scale(1);
+  transition: 0.3s all ease;
+  cursor: pointer;
 }

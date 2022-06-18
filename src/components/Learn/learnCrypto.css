@@ -1,0 +1,33 @@
+.learnContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.children {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+.greyBG {
+  background-color: rgba(139, 139, 139, 0.212);
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.learnCard {
+  height: 390px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.learnCard:hover {
+  background: rgba(0, 0, 0, 0.281);
+}
+
+a {
+  text-decoration: none;
+}

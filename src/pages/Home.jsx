@@ -5,6 +5,8 @@ import Hero from "../components/Hero/Hero";
 import MarketTable from "../components/MarketTable/MarketTable";
 import NavBar from "../components/NavBar/NavBar";
 import api from "../api/api";
+import LearnCrypto from "../components/Learn/LearnCrypto";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const [coins, setCoins] = useState([]);
@@ -31,7 +33,9 @@ const Home = () => {
         <Hero />
         <CryptoCards coins={coins} />
         <MarketTable shortList={shortList} />
+        <LearnCrypto />
       </Container>
+      <Footer />
     </>
   );
 };
